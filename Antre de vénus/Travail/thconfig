@@ -1,0 +1,186 @@
+encoding  utf-8
+encoding  utf-8       ### encodage utf-8 (utile pour la gestion des accents)
+cs UTM32          ### système de coordonnées (UTM32)
+
+source main.th      ### Chargement du fichier décrivant la cavité
+
+################################# Layout général #############################
+
+layout mon_layout_general
+  
+  ### cartouche et commentaires complémentaires :
+  ### Code Tex (non vérifié): 
+  #espace insécable : ~ | espace fine : \, | espace moyen : \: | espace large : \; | espace plus large (cadratin) : \quad   
+  #espace encore plus large : \qquad | espace horizontal de largeur donnée : \hspace*{2cm} | \hfill : remplit l'espace restant sur la ligne courante
+  #\dotfill : remplit l'espace restant sur la ligne courante par des pointillés | \hrulefill : remplit l'espace restant sur la ligne courante par un filet horizontal
+ 
+  #map-comment ##code therion
+  code tex-map
+   \comment={\vbox{\halign{#\hfil\cr
+      \hrulefill \cr
+      Secteur : Meaudre (38)\cr
+      Coordonnées : 45$\,^{\circ}$7'11.34"N - 5$\,^{\circ}$32'43.22"E\cr
+      Dessin : Retopographie pour essai DistoX2 + Therion - 2016 \cr
+      \hrulefill \cr 
+      Historique :\cr
+      $\;$ 2013 : Reprise de la désobstruction \cr
+      $\;$ 2016 : Topographie et poursuite des désobstructions... encore et toujours...;-)\cr
+      \cr
+      Fiche d'équipement :\cr
+      $\;$  Puits d'entrée : C40 : 2G $\rightarrow$ 6G $\downarrow$ 2G \cr 
+      }}{}}
+  endcode
+  
+                 
+  
+  language fr         ### choix de la langue => fr
+  legend on          ### présence de la légende des symboles ? => on/off
+  map-header-bg on    ### cartouche avec fond opaque (on)
+  legend-width 15 cm  ### cartouche avec largeur maxi de xx cm
+  statistics topo-length on   ### Affichage des statistiques
+  statistics explo-length on  ### Affichage des statistiques
+  
+  layers on           ### pour la génération du PDF en 1.5
+  transparency on     ### vue en transparence des galeries qui se superposent...
+  opacity 80          ### ... avec une opacité de 80%
+  #color map-fg altitude ### couleur des galeries selon l'altitude
+  rotate 45            ### rotation du nord géographique (en degré)
+ 
+  symbol-show group cave-centerline
+  symbol-assign point station:temporary SKBB   ### pour afficher les stations topo dans un format plus sympa
+
+  ### pour avoir une belle échelle des longueurs et une belle orientation.
+  code metapost  
+    def s_scalebar (expr l, units, txt) =
+      begingroup
+        interim warningcheck:=0;
+        tmpl:=l / Scale * cm * units / 2;
+        tmpx:=l / Scale * cm * units / 5;
+        tmph:=5bp; % bar height
+      endgroup;
+      pickup PenC;
+      draw (-tmpl+0.25*u/10,0)--(tmpl-0.25*u/10,0);
+      draw (tmpl-0.25*u/10,-tmph)--(-tmpl+0.25*u/10,-tmph);    
+      p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+      for i:=-2.5 step 2 until 2:
+        fill p shifted (i * tmpx,0);
+      endfor;
+      begingroup
+        interim labeloffset:=3.5bp;
+        for i:=0 step (l/5) until (l-1):
+          tmpx:=tmpl * (i * 2 / l - 1);
+          label.bot(thTEX(decimal (i)),(tmpx,-tmph));
+        endfor;
+        label.bot(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,-tmph));
+ #       label.top(thTEX("1 : " & decimal (Scale*100)),(0,0));
+      endgroup;
+    enddef;
+  
+    def s_northarrow_SKBB (expr rot) =
+      T:=identity scaled 0.7 rotated -rot;
+        begingroup
+          interim defaultscale:=1;
+          label(btex Nord Géographique etex, (0,-1cm));
+        endgroup;
+      thdraw (-.5cm,-1cm)--(0,1.5cm)--(.5cm,-1cm)--(0,-.5cm)--cycle;
+      thfill (-.5cm,-1cm)--(0,1.5cm)--(0,-.5cm)--cycle;
+    enddef;
+  endcode
+
+
+  ### pour faire que les zones d'eau soient bleues
+  code metapost
+    def a_water (expr p) =
+      T:=identity;
+      thfill p withcolor (0.0, 0.5, 1.0);
+    enddef;
+  endcode
+
+  ### pour faire que les siphons soient bleus foncé
+  code metapost
+  def a_sump (expr p) =
+    T:=identity;
+    thfill p withcolor (0.22, 0.22, 0.95);
+  enddef;
+  endcode
+  
+  ### pour les cordes
+  code metapost
+    def l_u_rope (expr P) =
+      T:=identity;
+      pickup pensquare scaled (0.05u);
+      thdraw P withcolor (0.8,0.0,0.0);
+    enddef;
+    
+    def p_anchor_MY (expr P,R,S,A)=
+       T:=identity aligned A rotated R scaled S shifted P;
+       # le rond du !
+       thfill (.15u,0u)..(0,.15u)..(-.15u,0u)..(0,-.15u)..cycle withcolor (0.6,0.0,0.0);
+    enddef;
+    initsymbol("p_anchor_MY");
+    let p_anchor = p_anchor_MY;
+  endcode
+
+endlayout
+
+################################# Atlas en format A4 #############################
+layout LayoutAtlasPortraitA4 
+  copy mon_layout_general
+  color map-bg 80                  ### couleur du fond (95% blanc => 95)
+  scale 1 250                       ### echelle
+  #symbol-hide group cave-centerline ### Ne pas afficher les stations topo
+  nav-factor  30    
+  nav-size  1  1  
+  page-setup  21  29.7  18  27.7  1.5  1  cm
+  #overlap    1  cm
+  size       16  22.6  cm
+endlayout LayoutAtlasPortraitA4 
+
+################################# ma_coupe #############################
+layout ma_coupe
+  copy mon_layout_general
+  scale 1 250                        ### echelle
+  symbol-hide group cave-centerline ### Ne pas afficher les stations topo
+  grid bottom                        ### positionnement de la grille
+  grid-size 5 5 5 m               ### dimension de la grille
+  grid-coords all                    ### border = sur les bords. off = pas de coordonnées. all = partout
+  map-header 0 -5 nw                 ### positionnement du cartouche
+  overlap    4  cm                   ### ajout d'une marge pour voir apparaitre des 2 cotés la cote de la profondeur au bout de la grille
+  #color map-bg 80                   ### couleur de fond (80% blanc / 20% gris => 80)
+endlayout
+
+################################# mon_plan #############################
+layout mon_plan
+  copy mon_layout_general
+  scale 1 500                       ### echelle
+  symbol-hide group cave-centerline ### Ne pas afficher les stations topo
+  grid bottom                        ### positionnement de la grille
+  grid-size 100 100 100 m               ### dimension de la grille
+  grid-coords off                    ### border = sur les bords. off = pas de coordonnées. all = partout (horrible en plan)
+  #color map-bg 80                    ### couleur du fond (80% blanc / 20% gris => 80)
+  map-header 0 -10 nw                 ### positionnement du cartouche
+endlayout
+
+################################# xvi #############################
+layout xvi-export
+ scale 1 100
+ grid-size 10 10 10 m
+endlayout
+
+########################### LES EXPORTS #############################
+
+#export map 			-fmt xvi -layout xvi-export -o ../plantravail.xvi 
+#export map -proj extended 	-fmt xvi -layout xvi-export -o ../coupetravail.xvi
+
+
+export map -projection plan -o ../plan.pdf -layout mon_plan 
+#export map -projection extended -o ../coupe.pdf -layout ma_coupe
+#export atlas -projection plan -o ../atlasA4.pdf -layout LayoutAtlasPortraitA4
+#export map -projection plan -format xhtml -o ../plan.xhtml -layout mon_plan
+#export map -projection plan -o ../plan.svg -layout mon_plan
+#export map -projection extended -o ../coupe.svg -layout ma_coupe
+
+export model -format loch -o ../3d.lox -wall-source maps
+export model -format kml -o ../report.kml
+export model -format esri -o ../Venus_model
+#export survey-list -o ../liste.html

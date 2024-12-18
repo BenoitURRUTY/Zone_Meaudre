@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 645.38m (surface 0.00m, duplicated 0.00m)\nvertical range: 21.54m (from Ent1@AV2.main at 1162.77m to AVF43@AV2.main at 1141.23m)\nnorth-south range: 327.76m (from flanc1@AV2.main at 5002080.16m to AVF44@AV2.main at 5001752.40m)\neast-west range: 191.36m (from AVF27@AV2.main at 228462.41m to Ent0@AV2.main at 228271.05m)\nnumber of shots: 50\nnumber of stations: 52"
+xth_cp_data_tree_insert 23 1 1 main main "Antre de Vénus" "Antre de Venus" "length: 645.38m (surface 0.00m, duplicated 0.00m)\nvertical range: 21.54m (from Ent1@AV2.main at 1162.77m to AVF43@AV2.main at 1141.23m)\nnorth-south range: 327.76m (from flanc1@AV2.main at 5002080.16m to AVF44@AV2.main at 5001752.40m)\neast-west range: 191.36m (from AVF27@AV2.main at 228462.41m to Ent0@AV2.main at 228271.05m)\nnumber of shots: 50\nnumber of stations: 52"
+xth_cp_data_tree_insert 25 23 2 AV2 AV2.main "Antre de vénus Partie 1" "Antre de venus Partie 1" "length: 645.38m (surface 0.00m, duplicated 0.00m)\nvertical range: 21.54m (from Ent1@AV2.main at 1162.77m to AVF43@AV2.main at 1141.23m)\nnorth-south range: 327.76m (from flanc1@AV2.main at 5002080.16m to AVF44@AV2.main at 5001752.40m)\neast-west range: 191.36m (from AVF27@AV2.main at 228462.41m to Ent0@AV2.main at 228271.05m)\nnumber of shots: 50\nnumber of stations: 52"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 127X1 p1 1 myscrap myscrap@main "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 645 1
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1692130826
+

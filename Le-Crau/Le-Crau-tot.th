@@ -1,0 +1,15 @@
+encoding  utf-8
+
+survey Le-Crau -title "Le-Crau"
+   input Data/LM_2.th
+   input Data/le_labyrinthe_meaudre.th
+   equate NVS25@le_labyrinthe_meaudre 0@LM_2
+
+   input Data/LM_plan_1.th2
+   input Data/LM_plan_2.th2
+   join SP-Crau-1 SP-Crau-5
+   
+   input Le-Crau-maps.th
+
+	
+endsurvey

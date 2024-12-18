@@ -1,0 +1,15 @@
+encoding  utf-8
+survey main \
+   -title "Antre de Vénus" \
+
+
+   input data/Releves_galerie_1.th
+   #input data/Releves_entree.th
+   input data/Galerie.th2
+       
+  map myscrap
+    scrap1
+  endmap
+ 
+ endsurvey
+

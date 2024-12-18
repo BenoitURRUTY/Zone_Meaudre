@@ -1,0 +1,11 @@
+encoding  utf-8
+source Releves_entree.th
+
+layout xvi-export
+
+scale 1 1000
+grid-size 1 1 1 m
+
+endlayout
+
+export map -fmt xvi -layout xvi-export -o entree.xvi

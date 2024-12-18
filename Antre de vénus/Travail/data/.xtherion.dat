@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 39.60m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.77m (from Ent1@AV1 at 0.02m to Ent5@AV1 at -18.74m)\nnorth-south range: 14.56m (from flanc1@AV1 at 6.11m to Ent5@AV1 at -8.45m)\neast-west range: 13.17m (from Ent5@AV1 at 13.17m to Ent1@AV1 at -0.00m)\nnumber of shots: 6\nnumber of stations: 7"
+xth_cp_data_tree_insert 9 1 1 AV1 AV1 "Antre de vénus zone d'entrée + Puits" "Antre de venus zone d'entree + Puits" "length: 39.60m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.77m (from Ent1@AV1 at 0.02m to Ent5@AV1 at -18.74m)\nnorth-south range: 14.56m (from flanc1@AV1 at 6.11m to Ent5@AV1 at -8.45m)\neast-west range: 13.17m (from Ent5@AV1 at 13.17m to Ent1@AV1 at -0.00m)\nnumber of shots: 6\nnumber of stations: 7"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 40 0
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1482096837
+

@@ -1,0 +1,29 @@
+encoding  utf-8
+
+map allcave
+  MP-Le-Crau-plan-tot #the part with walls drawn
+  le_labyrinthe_meaudre
+  LM_2    #the survey containing a part without wall drawings
+endmap
+
+map MP-Le-Crau-plan-tot -title "Le-Crau"
+  SP-Crau-4
+  break
+  SP-Crau-5
+  break
+
+  SP-Crau-3
+  break
+  SP-Crau-2
+  break
+  SP-Crau-1
+  SP-Crau-6
+  SP-Crau-8
+  SP-Crau-7
+endmap
+
+
+# map MC-Le-Crau-coupe-tot -title "Le-Crau"
+#   SC-Le-Crau-1
+
+# endmap

@@ -1,0 +1,12 @@
+encoding  utf-8
+source Releves_galerie_1.th
+
+layout xvi-export
+
+scale 1 1000
+grid-size 1 1 1 m
+
+endlayout
+
+export map -fmt xvi -layout xvi-export -o galerie1.xvi
+#export map -fmt kml -layout xvi-export -o galerie1.kml

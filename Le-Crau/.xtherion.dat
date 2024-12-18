@@ -1,0 +1,17 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 1060.58m (surface 0.00m, duplicated 0.00m)\nvertical range: 63.43m (from 1@le_labyrinthe_meaudre.Le-Crau at 988.47m to 69@LM_2.Le-Crau at 925.03m)\nnorth-south range: 290.18m (from 11@LM_2.Le-Crau at 5000244.92m to 157@LM_2.Le-Crau at 4999954.73m)\neast-west range: 95.14m (from 116@LM_2.Le-Crau at 700171.80m to E@le_labyrinthe_meaudre.Le-Crau at 700076.66m)\nnumber of shots: 1645\nnumber of stations: 1647"
+xth_cp_data_tree_insert 52 1 1 Le-Crau Le-Crau "Le-Crau" "Le-Crau" "length: 1060.58m (surface 0.00m, duplicated 0.00m)\nvertical range: 63.43m (from 1@le_labyrinthe_meaudre.Le-Crau at 988.47m to 69@LM_2.Le-Crau at 925.03m)\nnorth-south range: 290.18m (from 11@LM_2.Le-Crau at 5000244.92m to 157@LM_2.Le-Crau at 4999954.73m)\neast-west range: 95.14m (from 116@LM_2.Le-Crau at 700171.80m to E@le_labyrinthe_meaudre.Le-Crau at 700076.66m)\nnumber of shots: 1645\nnumber of stations: 1647"
+xth_cp_data_tree_insert 54 52 2 LM_2 LM_2.Le-Crau "LM 2" "LM 2" "length: 549.72m (surface 0.00m, duplicated 0.00m)\nvertical range: 28.15m (from 103@LM_2.Le-Crau at 953.19m to 69@LM_2.Le-Crau at 925.03m)\nnorth-south range: 290.18m (from 11@LM_2.Le-Crau at 5000244.92m to 157@LM_2.Le-Crau at 4999954.73m)\neast-west range: 40.27m (from 116@LM_2.Le-Crau at 700171.80m to 93@LM_2.Le-Crau at 700131.53m)\nnumber of shots: 945\nnumber of stations: 946"
+xth_cp_data_tree_insert 58 52 2 le_labyrinthe_meaudre le_labyrinthe_meaudre.Le-Crau "le labyrinthe meaudre" "le labyrinthe meaudre" "length: 510.86m (surface 0.00m, duplicated 0.00m)\nvertical range: 61.64m (from 1@le_labyrinthe_meaudre.Le-Crau at 988.47m to 51@le_labyrinthe_meaudre.Le-Crau at 926.83m)\nnorth-south range: 88.03m (from NVS16@le_labyrinthe_meaudre.Le-Crau at 5000230.42m to 5@le_labyrinthe_meaudre.Le-Crau at 5000142.39m)\neast-west range: 83.50m (from NVS33AW@le_labyrinthe_meaudre.Le-Crau at 700160.16m to E@le_labyrinthe_meaudre.Le-Crau at 700076.66m)\nnumber of shots: 700\nnumber of stations: 701"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 0 477X1 p1 1 allcave allcave@Le-Crau "" ""
+xth_cp_map_tree_insert map 1 478X1 477X1 2 MP-Le-Crau-plan-tot MP-Le-Crau-plan-tot@Le-Crau "Le-Crau" "Le-Crau"
+xth_cp_map_tree_create
+xth_cp_comp_stat 1061 8
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1734545604
+

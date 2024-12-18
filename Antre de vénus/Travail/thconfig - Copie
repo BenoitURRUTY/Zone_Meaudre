@@ -1,0 +1,12 @@
+encoding  utf-8
+source main.th
+
+layout map_layout
+
+scale 1 500
+cs lat-long
+
+endlayout
+
+export map -o map.pdf -layout map_layout
+export map -fmt kml -layout map_layout -o exportAV.kml
