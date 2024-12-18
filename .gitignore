@@ -8,7 +8,7 @@ GIS/Big_file/
 
 #ignorer geoTIFF
 # *.tif
-*.xvi
+# *.xvi
 
 *.svg
 *.kml
