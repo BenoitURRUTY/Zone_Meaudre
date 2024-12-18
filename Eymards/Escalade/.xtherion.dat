@@ -1,0 +1,18 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 91.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 22.50m (from escalade.23@Escalade.Escalade at 19.01m to escalade.13@Escalade.Escalade at -3.49m)\nnorth-south range: 21.89m (from escalade.0@Escalade.Escalade at 0.00m to escalade.9@Escalade.Escalade at -21.89m)\neast-west range: 18.50m (from escalade.23@Escalade.Escalade at 18.50m to escalade.0@Escalade.Escalade at 0.00m)\nnumber of shots: 203\nnumber of stations: 204"
+xth_cp_data_tree_insert 46 1 1 Escalade Escalade "Escalade" "Escalade" "length: 91.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 22.50m (from escalade.23@Escalade.Escalade at 19.01m to escalade.13@Escalade.Escalade at -3.49m)\nnorth-south range: 21.89m (from escalade.0@Escalade.Escalade at 0.00m to escalade.9@Escalade.Escalade at -21.89m)\neast-west range: 18.50m (from escalade.23@Escalade.Escalade at 18.50m to escalade.0@Escalade.Escalade at 0.00m)\nnumber of shots: 203\nnumber of stations: 204"
+xth_cp_data_tree_insert 48 46 2 Escalade Escalade.Escalade "Escalade" "Escalade" "length: 91.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 22.50m (from escalade.23@Escalade.Escalade at 19.01m to escalade.13@Escalade.Escalade at -3.49m)\nnorth-south range: 21.89m (from escalade.0@Escalade.Escalade at 0.00m to escalade.9@Escalade.Escalade at -21.89m)\neast-west range: 18.50m (from escalade.23@Escalade.Escalade at 18.50m to escalade.0@Escalade.Escalade at 0.00m)\nnumber of shots: 203\nnumber of stations: 204"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 149X1 p1 1 MP-Escalade-plan-2 MP-Escalade-plan-2@Escalade "Escalade" "Escalade"
+xth_cp_map_tree_insert map 1 150X1 p1 1 MP-Escalade-plan-3 MP-Escalade-plan-3@Escalade "" ""
+xth_cp_map_tree_insert map 0 151X1 p1 1 MP-Escalade-plan-tot MP-Escalade-plan-tot@Escalade "Escalade" "Escalade"
+xth_cp_map_tree_insert map 1 148X1 151X1 2 MP-Escalade-plan-1 MP-Escalade-plan-1@Escalade "Escalade" "Escalade"
+xth_cp_map_tree_insert map 1 152X1 p2 1 MC-Escalade-coupe-tot MC-Escalade-coupe-tot@Escalade "Escalade" "Escalade"
+xth_cp_map_tree_create
+xth_cp_comp_stat 91 8
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1627330066
+

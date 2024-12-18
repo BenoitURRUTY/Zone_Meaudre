@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 72.24m (surface 0.00m, duplicated 0.00m)\nvertical range: 22.68m (from meduse.8@Meduse.Meduse at 12.80m to meduse.16@Meduse.Meduse at -9.88m)\nnorth-south range: 17.99m (from meduse.0@Meduse.Meduse at 0.00m to meduse.14@Meduse.Meduse at -17.99m)\neast-west range: 16.71m (from meduse.8@Meduse.Meduse at 16.71m to meduse.0@Meduse.Meduse at 0.00m)\nnumber of shots: 122\nnumber of stations: 123"
+xth_cp_data_tree_insert 46 1 1 Meduse Meduse "Meduse" "Meduse" "length: 72.24m (surface 0.00m, duplicated 0.00m)\nvertical range: 22.68m (from meduse.8@Meduse.Meduse at 12.80m to meduse.16@Meduse.Meduse at -9.88m)\nnorth-south range: 17.99m (from meduse.0@Meduse.Meduse at 0.00m to meduse.14@Meduse.Meduse at -17.99m)\neast-west range: 16.71m (from meduse.8@Meduse.Meduse at 16.71m to meduse.0@Meduse.Meduse at 0.00m)\nnumber of shots: 122\nnumber of stations: 123"
+xth_cp_data_tree_insert 48 46 2 Meduse Meduse.Meduse "Meduse" "Meduse" "length: 72.24m (surface 0.00m, duplicated 0.00m)\nvertical range: 22.68m (from meduse.8@Meduse.Meduse at 12.80m to meduse.16@Meduse.Meduse at -9.88m)\nnorth-south range: 17.99m (from meduse.0@Meduse.Meduse at 0.00m to meduse.14@Meduse.Meduse at -17.99m)\neast-west range: 16.71m (from meduse.8@Meduse.Meduse at 16.71m to meduse.0@Meduse.Meduse at 0.00m)\nnumber of shots: 122\nnumber of stations: 123"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 116X1 p1 1 MP-Meduse-plan-tot MP-Meduse-plan-tot@Meduse "Meduse" "Meduse"
+xth_cp_map_tree_create
+xth_cp_comp_stat 72 5
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1627331386
+

@@ -1,0 +1,41 @@
+encoding  utf-8
+
+map MP-Eymards-tot -title "Eymards"
+    SP-Eymards-1
+    break
+    SP-Eymards-2
+    break
+    SP-Eymards-3
+    break
+    SP-Eymards-4
+    break
+    SP-Eymards-5
+    break
+    SP-Eymards-6
+    break
+    SP-Eymards-7
+    break
+    SP-Eymards-8
+    break
+    SP-Eymards-9
+    break
+    SP-Eymards-10
+    break
+    SP-Eymards-11
+    break
+    SP-Eymards-12
+endmap
+
+map MC-Eymards-coupe-tot -title "Eymards"
+    SC-Eymards-1
+    break
+    SC-Eymards-2
+    break
+    SC-Eymards-3
+    break
+    SC-Eymards-4
+    break
+    SC-Eymards-5
+    break
+    SC-Eymards-6
+endmap

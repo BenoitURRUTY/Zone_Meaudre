@@ -1,0 +1,102 @@
+# 2021.07.18 created by TopoDroid v 5.1.2
+
+survey Actif -title "Actif"
+
+  centerline
+    date 2021.07.18 
+    team "Solveig/Reymond(GUCEM)"
+    team "Benoît/Urruty(GUCEM)" 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    actif.0 . 0.89 3.7 25.4
+    actif.0 . 1.71 350.2 73.1
+    actif.0 . 2.03 339.1 82.4
+    actif.0 . 3.53 341.7 88.3
+    actif.0 . 1.82 161.7 81.4
+    actif.0 . 1.35 179.4 57.4
+    actif.0 . 1.25 170.7 20.9
+    actif.0 . 1.46 171.6 -18.5
+    actif.0 . 1.57 172.9 -39.2
+    actif.0 . 2.05 205.3 -21.8
+    actif.0 . 2.49 185.2 -25.1
+    actif.0 . 2.50 197.4 4.7
+    extend left
+    actif.0 actif.1 4.23 199.7 -24.4
+    # extend auto
+    actif.1 . 0.89 102.0 0.6
+    actif.1 . 1.32 72.3 -1.7
+    actif.1 . 1.15 73.8 58.1
+    actif.1 . 1.67 286.3 -7.3
+    actif.1 . 1.65 324.2 -0.4
+    actif.1 . 1.36 339.3 27.8
+    actif.1 . 2.05 343.4 -43.7
+    actif.1 . 2.25 307.3 -59.5
+    actif.1 . 1.38 1.5 -50.7
+    extend left
+    actif.1 actif.2 1.84 242.4 -18.9
+    # extend auto
+    actif.2 . 1.86 88.7 -55.1
+    actif.2 . 0.84 114.9 6.8
+    actif.2 . 0.55 154.1 63.8
+    actif.2 . 1.72 160.5 -20.0
+    actif.2 . 2.73 196.5 -28.0
+    actif.2 . 0.89 202.0 6.7
+    extend left
+    actif.2 actif.3 4.36 186.5 -28.2
+    # extend auto
+    actif.3 . 0.89 201.4 73.6
+    actif.3 . 1.22 264.5 46.9
+    actif.3 . 0.65 291.8 5.2
+    actif.3 . 0.64 297.2 -21.1
+    actif.3 . 1.55 312.3 -75.4
+    extend left
+    actif.3 actif.4 4.13 196.2 -20.9
+    # extend auto
+    actif.4 . 0.45 162.5 59.6
+    actif.4 . 0.78 112.3 30.1
+    actif.4 . 0.69 105.4 -6.3
+    actif.4 . 1.04 15.4 -80.3
+    actif.4 . 0.70 237.0 11.7
+    extend left
+    actif.4 actif.5 2.39 193.2 -28.1
+    # extend auto
+    actif.5 . 0.51 116.0 -8.1
+    actif.5 . 0.36 147.5 62.6
+    actif.5 . 0.86 69.0 -87.5
+    actif.5 . 0.54 127.3 -36.3
+    extend left
+    actif.5 actif.6 2.02 181.1 -32.6
+    # extend auto
+    actif.6 . 0.94 95.5 -2.0
+    actif.6 . 0.93 93.9 -47.1
+    actif.6 . 0.69 142.8 50.0
+    actif.6 . 0.62 179.4 82.8
+    extend left
+    actif.6 actif.7 1.82 143.5 -22.0
+    # extend auto
+    actif.7 . 1.18 251.7 11.0
+    actif.7 . 1.01 266.5 2.7
+    actif.7 . 0.56 239.7 42.1
+    actif.7 . 0.68 264.1 -51.5
+    actif.7 . 0.57 302.1 -86.4
+    extend left
+    actif.7 actif.8 2.07 210.4 -21.7
+    # extend auto
+    actif.8 . 1.43 125.5 -73.6
+    actif.8 . 0.74 109.2 -4.0
+    actif.8 . 0.41 127.3 50.8
+    actif.8 . 2.12 173.0 -43.3
+    extend left
+    actif.8 actif.9 2.13 175.0 -43.3
+    # extend auto
+    actif.9 . 5.63 194.7 -14.9
+    actif.9 . 1.11 182.3 -4.1
+    actif.9 . 0.69 208.5 31.6
+    actif.9 . 0.46 249.4 12.0
+    actif.9 . 0.34 198.6 -59.2
+    actif.9 . 0.25 105.7 12.2
+  endcenterline
+
+endsurvey

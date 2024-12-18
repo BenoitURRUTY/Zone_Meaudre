@@ -1,0 +1,95 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -132.0 -132.0 4551.7894 8506.4612
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {3939.9700000000003 1 1.0} {1259.8400000000001 meduse.0} Meduse-coupe.xvi 0 {}
+
+
+
+scrap SC-Meduse-1 -projection extended -station-names "" "@Meduse" -scale [-128.0 -128.0 4537.4512 -128.0 0.0 0.0 118.50246048000001 0.0 m]
+
+line wall -subtype invisible
+  3516.0 1128.0
+  3896.0 1384.0
+endline
+
+line wall -subtype invisible
+  1216.0 968.0
+  1568.0 724.0
+endline
+
+line wall -reverse on
+  4096.0 3644.0
+  4096.0 3644.0 3876.0 2352.0 3752.0 2244.0
+  3628.0 2136.0 3028.0 1960.0 2924.0 1916.0
+  2820.0 1872.0 2812.0 1736.0 2876.0 1712.0
+  2940.0 1688.0 3128.0 1640.0 3260.0 1648.0
+  3392.0 1656.0 3532.0 1420.0 3672.0 1400.0
+  3812.0 1380.0 3896.0 1384.0 3896.0 1384.0
+  smooth off
+endline
+
+line wall -reverse on -subtype presumed
+  1216.0 968.0
+  1244.0 1052.0 1388.0 1432.0 1360.0 1532.0
+  1332.0 1632.0 1164.0 1912.0 1180.0 1952.0
+  1196.0 1992.0 1636.0 1944.0 1668.0 1964.0
+  1700.0 1984.0 1732.0 2020.0 1740.0 2084.0
+  1748.0 2148.0 1748.0 2416.0 1808.0 2448.0
+  1868.0 2480.0 1868.21 3611.85 1932.0 3704.0
+  smooth off
+endline
+
+line wall -reverse on
+  1932.0 3704.0
+  2076.0 3912.0 3996.0 3992.0 4096.0 3644.0
+  smooth off
+endline
+
+line wall -reverse on
+  3516.0 1128.0
+  3512.0 1412.0 2872.0 1400.0 2676.0 1464.0
+  smooth off
+  2480.0 1528.0 2660.0 1444.0 2300.0 1648.0
+  1940.0 1852.0 1988.0 1812.0 1852.0 1784.0
+  1731.32 1759.15 1736.0 1708.0 1696.0 1624.0
+  1656.0 1540.0 1580.0 892.0 1568.0 724.0
+  smooth off
+endline
+
+point 1334.7600000000002 481.8900000000001 station -name meduse.16
+
+point 1434.71 964.5700000000002 station -name meduse.15
+
+point 1551.95 1596.8500000000001 station -name meduse.14
+
+point 1582.29 1886.68 station -name meduse.13
+
+point 1809.48 1839.3700000000001 station -name meduse.12
+
+point 1897.48 1957.48 station -name meduse.11
+
+point 2038.2200000000003 1994.4900000000002 station -name meduse.10
+
+point 2179.71 1986.6200000000001 station -name meduse.9
+
+point 3516.12 2267.7200000000003 station -name meduse.8
+
+point 2894.34 1977.17 station -name meduse.7
+
+point 2610.58 1997.7700000000002 station -name meduse.6
+
+point 2592.0 1540.0 station -name meduse.5
+
+point 3117.92 1479.5300000000002 station -name meduse.4
+
+point 3467.2799999999997 1348.8200000000002 station -name meduse.3
+
+point 3589.1 1260.63 station -name meduse.2
+
+point 3789.87 1257.48 station -name meduse.1
+
+point 3940.25 1259.8400000000001 station -name meduse.0
+
+endscrap
+
+

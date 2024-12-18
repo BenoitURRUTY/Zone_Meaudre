@@ -1,0 +1,77 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -132.0 -132.0 2253.9854 1309.103
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1863.85 1 1.0} {866.143 pb.0} PB-coupe.xvi 0 {}
+
+
+
+scrap SC-PB-1 -projection extended -station-names "" "@PB" -scale [-128.0 -128.0 994.1422 -128.0 0.0 0.0 28.50241188 0.0 m]
+
+line wall -subtype invisible
+  1914.0 663.0
+  1728.0 749.0
+endline
+
+line wall -subtype invisible
+  838.0 381.0
+  749.0 373.0
+endline
+
+line wall -reverse on -subtype invisible
+  218.0 249.0
+  391.0 308.0
+endline
+
+line wall
+  749.0 373.0
+  757.0 355.0 750.0 349.0 722.0 339.0
+  694.0 329.0 606.0 284.0 583.0 281.0
+  560.0 278.0 411.0 303.0 391.0 308.0
+  smooth off
+endline
+
+line wall
+  1728.0 749.0
+  1708.0 714.0 1695.61 754.7 1667.0 758.0
+  1641.0 761.0 1509.0 780.0 1444.0 735.0
+  1372.2 685.29 1334.0 463.0 1273.0 436.0
+  1212.0 409.0 1122.0 385.0 1089.0 386.0
+  1056.0 387.0 868.0 366.0 838.0 381.0
+  smooth off
+endline
+
+line wall -reverse on
+  1914.0 663.0
+  1894.0 641.0 1872.0 650.0 1859.0 648.0
+  1846.0 646.0 1759.0 677.0 1735.0 648.0
+  1711.0 619.0 1537.0 356.0 1504.0 348.0
+  1471.0 340.0 1301.0 363.0 1274.0 362.0
+  1247.0 361.0 1106.0 288.0 1086.0 284.0
+  1066.0 280.0 798.0 237.0 750.0 227.0
+  702.0 217.0 544.0 214.0 530.0 215.0
+  516.0 216.0 261.0 234.0 253.0 237.0
+  245.0 240.0 218.0 249.0 218.0 249.0
+  smooth off
+endline
+
+point 1863.85 866.143 station -name pb.0
+
+point 1733.83 660.633 station -name pb.1
+
+point 1555.02 506.303 station -name pb.2
+
+point 1304.0500000000002 403.933 station -name pb.3
+
+point 1097.22 329.923 station -name pb.4
+
+point 844.5300000000001 295.27299999999997 station -name pb.5
+
+point 588.6300000000001 241.733 station -name pb.6
+
+point 347.08000000000004 232.28299999999996 station -name pb.7
+
+point 227.55000000000007 269.293 station -name pb.8
+
+endscrap
+
+

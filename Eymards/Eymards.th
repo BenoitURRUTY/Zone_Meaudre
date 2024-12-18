@@ -1,0 +1,41 @@
+encoding  utf-8
+
+survey Eymards-tot -title "Eymards_tot"
+   input Eymards/Eymards-tot.th
+
+   input Actif/Actif-tot.th
+   equate actif.0@Actif.Actif eymards2.23@Eymards.Eymards
+   #plan
+   join SP-Actif-1@Actif  SP-Eymards-5@Eymards
+
+   #coupe
+   join SC-Actif-1@Actif  SC-Eymards-3@Eymards
+
+   input PB/PB-tot.th
+   equate pb.0@PB.PB eymards2.40@Eymards.Eymards
+   equate pb.8@PB.PB eymards2.34@Eymards.Eymards
+   #plan
+   join SP-PB-1@PB  SP-Eymards-6@Eymards
+   join SP-PB-1@PB  SP-Eymards-7@Eymards
+   #coupe
+   join SC-PB-1@PB  SC-Eymards-4@Eymards
+   join SC-PB-1@PB  SC-Eymards-5@Eymards
+   #join SC-PB-1@PB  SC-Eymards-6@Eymards
+
+   input Escalade/Escalade-tot.th
+   equate eymards2.11@Eymards.Eymards escalade.0@Escalade.Escalade
+   equate 10@Eymards.Eymards escalade.23@Escalade.Escalade
+   join SP-Escalade-1@Escalade SP-Eymards-4@Eymards
+   #join SP-Escalade-4@Escalade SP-Eymards-2@Eymards
+   join SC-Escalade-1@Escalade SC-Eymards-2@Eymards
+   join SC-Escalade-2@Escalade SC-Eymards-1@Eymards
+
+   input Meduse/Meduse-tot.th
+   equate meduse.0@Meduse.Meduse eymards2.31@Eymards.Eymards
+   equate meduse.16@Meduse.Meduse eymards2.22@Eymards.Eymards
+   #join SP-meduse-1@Meduse SP-Eymards-6@Eymards
+   #join SP-meduse-4@Meduse SP-Eymards-5@Eymards
+   join SC-Meduse-1@Meduse SC-Eymards-4@Eymards
+   join SC-Meduse-1@Meduse SC-Eymards-3@Eymards
+
+endsurvey

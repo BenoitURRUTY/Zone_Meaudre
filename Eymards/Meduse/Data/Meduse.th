@@ -1,0 +1,166 @@
+# 2021.07.18 created by TopoDroid v 5.1.2
+
+survey Meduse -title "Meduse"
+
+  centerline
+    date 2021.07.18 
+    team "Solveig/Reymond(GUCEM)"
+    team "Benoît/Urruty(GUCEM)"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    meduse.0 meduse.1 1.91 101.4 -0.9
+    # extend auto
+    meduse.1 . 2.70 161.7 -4.3
+    meduse.1 . 2.05 198.8 -3.7
+    meduse.1 . 1.92 235.8 3.9
+    meduse.1 . 1.55 277.5 26.4
+    meduse.1 . 5.83 179.0 -45.6
+    meduse.1 . 3.94 206.0 -47.7
+    meduse.1 . 1.41 202.8 57.3
+    meduse.1 . 2.35 141.7 -26.0
+    meduse.1 . 1.40 126.6 -45.9
+    meduse.1 . 1.79 189.7 -77.9
+    extend left
+    meduse.1 meduse.2 2.55 166.1 0.8
+    # extend auto
+    meduse.2 . 0.74 249.8 -8.3
+    meduse.2 . 0.58 260.2 70.1
+    meduse.2 . 5.80 267.6 -77.1
+    meduse.2 . 0.30 74.3 0.7
+    meduse.2 . 2.32 182.6 35.7
+    extend left
+    meduse.2 meduse.3 1.91 185.1 35.9
+    # extend auto
+    meduse.3 . 3.94 105.2 7.9
+    meduse.3 . 4.58 73.4 18.3
+    meduse.3 . 4.63 73.6 56.6
+    meduse.3 . 1.81 37.2 7.6
+    meduse.3 . 1.45 358.1 -16.6
+    extend vertical
+    meduse.3 meduse.4 4.74 78.0 20.6
+    # extend auto
+    meduse.4 . 1.42 208.8 9.2
+    meduse.4 . 3.29 241.9 8.9
+    meduse.4 . 2.66 279.3 -1.0
+    meduse.4 . 3.33 255.5 38.0
+    meduse.4 . 3.63 249.5 -1.6
+    extend left
+    meduse.4 meduse.5 6.46 223.2 7.0
+    # extend auto
+    meduse.5 . 1.97 95.2 -0.2
+    meduse.5 . 2.53 55.9 5.9
+    meduse.5 . 5.70 37.8 9.3
+    meduse.5 . 2.76 67.7 47.2
+    meduse.5 . 4.34 75.7 68.9
+    meduse.5 . 2.49 160.8 33.9
+    meduse.5 . 3.16 158.8 54.5
+    meduse.5 . 6.14 137.6 64.1
+    meduse.5 . 17.58 80.8 47.8
+    meduse.5 . 14.80 93.7 46.5
+    meduse.5 . 13.15 94.3 34.2
+    extend vertical
+    meduse.5 meduse.6 10.37 79.5 33.3
+    # extend auto
+    meduse.6 . 7.71 269.4 40.9
+    meduse.6 . 19.05 244.0 78.3
+    meduse.6 . 22.85 297.0 88.7
+    meduse.6 . 18.11 70.6 76.9
+    meduse.6 . 6.46 108.9 64.2
+    meduse.6 . 9.81 175.5 65.7
+    meduse.6 . 6.61 224.3 55.3
+    meduse.6 . 4.28 214.9 36.6
+    meduse.6 . 14.12 221.2 67.3
+    meduse.6 . 6.30 229.1 5.3
+    meduse.6 . 5.90 209.1 4.1
+    meduse.6 . 6.05 252.2 0.9
+    meduse.6 . 2.42 71.2 25.5
+    meduse.6 . 3.45 123.9 17.7
+    meduse.6 . 4.23 173.2 7.2
+    meduse.6 . 24.66 61.2 67.8
+    extend right
+    meduse.6 meduse.7 3.58 122.7 -2.7
+    extend right
+    meduse.7 meduse.8 8.72 21.4 25.1
+    # extend auto
+    meduse.8 . 1.88 227.5 14.7
+    meduse.8 . 2.72 178.7 3.1
+    meduse.8 . 2.63 140.6 -2.5
+    meduse.8 . 2.58 120.2 19.6
+    meduse.8 . 3.28 226.2 80.7
+    meduse.8 . 12.69 192.8 77.0
+    meduse.8 . 3.07 82.5 69.9
+    meduse.8 . 8.87 193.5 60.2
+    meduse.8 . 18.53 216.8 69.9
+    extend left
+    meduse.6 meduse.9 5.50 179.2 -0.5
+    # extend auto
+    meduse.9 . 1.99 279.0 6.7
+    meduse.9 . 3.25 246.8 58.9
+    meduse.9 . 1.28 273.5 -69.6
+    meduse.9 . 0.77 237.9 3.9
+    meduse.9 . 1.36 194.3 9.1
+    meduse.9 . 1.46 205.6 43.3
+    meduse.9 . 1.47 311.9 -10.5
+    meduse.9 . 1.34 332.4 -26.0
+    extend left
+    meduse.9 meduse.10 1.80 206.4 3.3
+    # extend auto
+    meduse.10 . 0.43 105.6 -3.6
+    meduse.10 . 0.24 135.1 -77.0
+    meduse.10 . 1.03 153.6 71.6
+    extend left
+    meduse.10 meduse.11 1.82 172.7 -14.8
+    # extend auto
+    meduse.11 . 0.48 294.3 1.8
+    meduse.11 . 1.18 327.0 -82.6
+    meduse.11 . 3.10 216.0 -70.4
+    meduse.11 . 2.11 205.7 -41.6
+    meduse.11 . 2.60 204.6 3.5
+    meduse.11 . 2.32 209.1 45.8
+    meduse.11 . 6.30 221.6 84.9
+    extend left
+    meduse.11 meduse.12 1.89 215.1 -52.7
+    # extend auto
+    meduse.12 . 1.55 275.5 14.3
+    meduse.12 . 1.01 346.7 8.5
+    meduse.12 . 0.80 178.7 6.9
+    meduse.12 . 1.38 80.7 0.0
+    meduse.12 . 3.16 114.0 5.9
+    meduse.12 . 3.23 89.3 0.8
+    meduse.12 . 1.48 308.2 -81.2
+    meduse.12 . 4.45 240.3 87.2
+    extend left
+    meduse.12 meduse.13 2.91 116.3 10.9
+    # extend auto
+    meduse.13 . 2.17 31.0 -23.7
+    meduse.13 . 5.32 22.7 10.9
+    meduse.13 . 0.72 224.5 -24.3
+    meduse.13 . 4.43 179.2 -11.8
+    meduse.13 . 3.89 181.4 -16.8
+    meduse.13 . 3.65 316.4 -3.7
+    extend left
+    meduse.13 meduse.14 3.65 207.9 -83.5
+    # extend auto
+    meduse.14 . 0.69 244.0 4.2
+    meduse.14 . 3.55 148.4 80.4
+    meduse.14 . 0.38 77.3 28.5
+    meduse.14 . 0.34 352.7 -32.4
+    meduse.14 . 1.33 340.3 5.4
+    meduse.14 . 2.68 150.3 -19.4
+    extend left
+    meduse.14 meduse.15 8.17 342.9 -79.5
+    # extend auto
+    meduse.15 . 0.81 122.9 5.9
+    meduse.15 . 2.46 173.8 4.5
+    meduse.15 . 2.41 206.9 1.5
+    meduse.15 . 1.90 255.6 1.8
+    meduse.15 . 1.48 225.4 0.4
+    meduse.15 . 6.30 189.7 -78.3
+    meduse.15 . 5.76 190.3 -78.2
+    extend left
+    meduse.15 meduse.16 6.26 190.0 -78.3
+  endcenterline
+
+endsurvey

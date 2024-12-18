@@ -1,0 +1,16 @@
+encoding  utf-8
+
+map MP-Meduse-plan-tot -title "Meduse"
+    SP-meduse-1
+    break
+    SP-meduse-2
+    break
+    SP-meduse-3
+    break
+    SP-meduse-4
+
+endmap
+
+#map MC-Meduse-coupe-tot -title "Meduse"
+#    SC-Meduse-1
+#endmap

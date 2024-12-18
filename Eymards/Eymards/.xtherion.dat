@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 283.26m (surface 0.00m, duplicated 0.00m)\nvertical range: 33.07m (from 5@Eymards.Eymards at 1111.05m to eymards2.23@Eymards.Eymards at 1077.98m)\nnorth-south range: 154.72m (from eymards2.61@Eymards.Eymards at 2018619.72m to eymards.0@Eymards.Eymards at 2018465.00m)\neast-west range: 63.37m (from eymards.0@Eymards.Eymards at 854385.00m to eymards2.32@Eymards.Eymards at 854321.63m)\nnumber of shots: 580\nnumber of stations: 581"
+xth_cp_data_tree_insert 46 1 1 Eymards Eymards "Eymards" "Eymards" "length: 283.26m (surface 0.00m, duplicated 0.00m)\nvertical range: 33.07m (from 5@Eymards.Eymards at 1111.05m to eymards2.23@Eymards.Eymards at 1077.98m)\nnorth-south range: 154.72m (from eymards2.61@Eymards.Eymards at 2018619.72m to eymards.0@Eymards.Eymards at 2018465.00m)\neast-west range: 63.37m (from eymards.0@Eymards.Eymards at 854385.00m to eymards2.32@Eymards.Eymards at 854321.63m)\nnumber of shots: 580\nnumber of stations: 581"
+xth_cp_data_tree_insert 48 46 2 Eymards Eymards.Eymards "Eymards" "Eymards" "length: 283.26m (surface 0.00m, duplicated 0.00m)\nvertical range: 33.07m (from 5@Eymards.Eymards at 1111.05m to eymards2.23@Eymards.Eymards at 1077.98m)\nnorth-south range: 154.72m (from eymards2.61@Eymards.Eymards at 2018619.72m to eymards.0@Eymards.Eymards at 2018465.00m)\neast-west range: 63.37m (from eymards.0@Eymards.Eymards at 854385.00m to eymards2.32@Eymards.Eymards at 854321.63m)\nnumber of shots: 580\nnumber of stations: 581"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 333X1 p1 1 MP-Eymards-tot MP-Eymards-tot@Eymards "Eymards" "Eymards"
+xth_cp_map_tree_insert map 1 334X1 p2 1 MC-Eymards-coupe-tot MC-Eymards-coupe-tot@Eymards "Eymards" "Eymards"
+xth_cp_map_tree_create
+xth_cp_comp_stat 283 17
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1627328617
+

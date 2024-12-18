@@ -1,0 +1,743 @@
+# 2021.07.18 created by TopoDroid v 5.1.2
+
+survey eymards_topo -title "eymards topo"
+
+  centerline
+    date 2021.07.18 
+    # team soso
+    station eymards.0 "Grotte des Eymards" entrance
+    cs EPSG:27572
+    fix eymards.0 854385.00 2018465.00 1110
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    eymards.0 . 2.52 116.9 -11.6
+    eymards.0 . 1.80 29.4 2.8
+    eymards.0 . 1.33 35.8 55.1
+    eymards.0 . 1.12 61.5 82.4
+    eymards.0 . 1.31 204.3 57.1
+    eymards.0 . 0.59 36.6 -70.0
+    eymards.0 . 1.93 276.5 46.7
+    eymards.0 . 2.45 312.5 24.3
+    eymards.0 . 1.97 330.0 7.1
+    extend ignore
+    eymards.0 eymards1 3.13 282.1 9.4
+    # extend auto
+    eymards1 . 3.13 282.1 9.4
+    eymards1 . 0.26 356.5 8.6
+    eymards1 . 1.09 356.0 -26.1
+    eymards1 . 1.39 349.6 -74.3
+    extend right
+    eymards1 eymards.1 3.69 290.0 -5.4
+    # extend auto
+    eymards.1 . 1.17 327.7 69.1
+    eymards.1 . 1.24 355.1 33.0
+    eymards.1 . 0.95 9.7 0.2
+    eymards.1 . 1.25 21.8 -24.7
+    eymards.1 . 1.55 355.4 -66.8
+    eymards.1 . 1.62 106.6 44.8
+    eymards.1 . 2.41 296.9 37.4
+    extend right
+    eymards.1 eymards.2 4.26 304.6 1.6
+    # extend auto
+    eymards.2 . 1.12 273.4 76.9
+    eymards.2 . 1.99 208.3 40.7
+    eymards.2 . 1.17 200.2 18.1
+    eymards.2 . 1.58 43.0 0.4
+    eymards.2 . 0.91 37.9 -47.3
+    eymards.2 . 2.15 30.6 -15.7
+    extend right
+    eymards.2 eymards.3 4.88 304.1 2.6
+    # extend auto
+    eymards.3 . 0.83 210.7 14.6
+    eymards.3 . 1.35 247.1 63.7
+    eymards.3 . 0.97 2.4 36.8
+    eymards.3 . 0.60 21.4 46.1
+    eymards.3 . 0.27 319.4 -77.0
+    eymards.3 . 3.70 313.7 6.7
+    extend ignore
+    eymards.3 4 3.69 313.6 6.6
+    # extend auto
+    eymards.3 . 0.79 176.7 11.2
+    eymards.3 . 0.81 245.6 79.8
+    eymards.3 . 0.40 354.6 15.3
+    eymards.3 . 1.30 228.4 52.7
+    eymards.3 . 0.98 230.0 2.9
+    eymards.3 . 0.93 304.8 6.0
+    extend vertical
+    4 5 3.37 275.2 2.1
+    # extend auto
+    5 . 1.02 302.4 77.7
+    5 . 1.76 304.8 80.9
+    5 . 0.51 347.3 7.6
+    5 . 2.74 15.5 -13.1
+    5 . 1.85 12.4 -51.8
+    5 . 1.00 35.7 4.4
+    5 . 1.29 39.0 42.0
+    5 . 2.88 80.7 57.8
+    extend right
+    5 6 3.36 356.4 -23.3
+    # extend auto
+    6 . 1.19 191.8 22.7
+    6 . 1.67 219.7 -5.7
+    6 . 1.04 215.3 -51.3
+    6 . 0.90 224.2 42.8
+    6 . 1.62 103.7 10.5
+    6 . 1.00 126.7 50.8
+    6 . 0.93 95.9 -25.2
+    6 . 1.31 266.9 -57.2
+    extend vertical
+    6 7 2.53 273.3 -32.9
+    # extend auto
+    7 . 1.63 170.2 25.3
+    7 . 3.25 201.6 22.4
+    7 . 2.22 229.4 20.9
+    7 . 0.74 266.7 26.8
+    7 . 1.42 193.4 53.2
+    7 . 0.69 358.0 -47.5
+    7 . 1.77 114.4 50.7
+    7 . 1.14 255.4 60.8
+    extend right
+    7 8 3.17 2.9 -11.2
+    # extend auto
+    8 . 1.00 325.4 76.1
+    8 . 1.55 28.8 30.4
+    8 . 1.69 222.9 27.2
+    8 . 2.77 272.7 30.1
+    8 . 3.14 315.1 6.5
+    8 . 0.94 164.9 51.4
+    8 . 3.23 344.7 -12.7
+    8 . 5.69 309.5 -7.9
+    extend right
+    8 9 5.24 311.3 -18.5
+    # extend auto
+    9 . 0.95 235.5 21.8
+    9 . 2.70 3.4 76.4
+    9 . 2.67 58.4 13.4
+    9 . 2.61 61.5 36.0
+    9 . 3.49 50.2 -36.4
+    9 . 2.87 144.4 44.5
+    9 . 3.59 155.7 67.2
+    9 . 2.31 98.0 35.1
+    9 . 2.97 76.2 -2.9
+    9 . 4.14 11.4 22.9
+    9 . 4.59 341.0 24.6
+    9 . 3.55 338.8 46.4
+    extend right
+    9 10 7.27 1.1 -56.2
+    # extend auto
+    10 . 9.30 266.1 79.2
+    10 . 8.98 260.8 65.7
+    10 . 7.38 259.9 43.3
+    10 . 7.20 297.2 45.7
+    10 . 4.49 322.4 44.3
+    10 . 4.48 22.8 53.6
+    10 . 1.62 75.5 53.4
+    10 . 2.30 127.3 35.7
+    10 . 1.23 90.1 5.8
+    10 . 2.99 6.0 10.7
+    10 . 5.41 274.5 11.1
+    10 . 4.21 224.4 8.5
+    10 . 0.72 256.9 -75.5
+     extend right
+    10 eymards2.1 5.51 326.7 12.1 #eymards2.0
+    # extend auto
+    eymards2.1 . 6.03 179.9 1.6
+    eymards2.1 . 7.15 149.4 -0.4
+    eymards2.1 . 5.63 124.1 1.5
+    eymards2.1 . 1.04 182.2 52.2
+    eymards2.1 . 0.77 27.3 2.0
+    eymards2.1 . 1.48 51.4 -43.9
+    eymards2.1 . 1.57 29.5 -68.8
+    eymards2.1 . 1.41 285.2 -0.6
+    extend right
+    eymards2.1 eymards2.2 2.49 333.7 7.7
+    # extend auto
+    eymards2.2 . 0.79 122.4 55.2
+    eymards2.2 . 0.59 83.4 -5.3
+    eymards2.2 . 1.09 52.0 -66.2
+    eymards2.2 . 0.99 259.9 56.2
+    extend right
+    eymards2.2 eymards2.3 2.81 12.0 28.3
+    # extend auto
+    eymards2.3 . 0.69 255.9 59.9
+    eymards2.3 . 1.35 242.4 7.2
+    eymards2.3 . 0.94 246.3 -26.3
+    eymards2.3 . 0.88 262.4 -52.0
+    extend right
+    eymards2.3 eymards2.4 3.98 283.6 27.9
+    # extend auto
+    eymards2.4 . 0.47 356.7 68.1
+    eymards2.4 . 1.39 5.7 15.0
+    eymards2.4 . 1.27 9.1 -15.4
+    eymards2.4 . 1.28 6.4 -35.7
+    eymards2.4 . 0.89 341.9 -70.8
+    extend right
+    eymards2.4 eymards2.5 5.29 294.9 33.3
+    # extend auto
+    eymards2.5 . 1.18 187.1 -17.7
+    eymards2.5 . 1.27 242.2 -70.7
+    eymards2.5 . 0.39 333.8 -36.2
+    eymards2.5 . 2.03 230.5 -4.9
+    eymards2.5 . 1.53 149.7 -42.2
+    eymards2.5 . 2.12 91.5 -43.8
+    eymards2.5 . 2.62 109.7 -63.8
+    eymards2.5 . 1.51 229.4 -51.4
+    extend vertical
+    eymards2.5 eymards2.6 3.07 277.3 18.0
+    # extend auto
+    eymards2.6 . 1.47 185.7 84.3
+    eymards2.6 . 2.56 173.3 7.3
+    eymards2.6 . 2.55 321.7 19.3
+    eymards2.6 . 2.63 1.3 11.2
+    eymards2.6 . 1.95 359.2 -35.3
+    eymards2.6 . 1.26 75.0 -77.9
+    eymards2.6 . 2.50 128.0 -23.8
+    eymards2.6 . 1.29 88.9 -20.6
+    eymards2.6 . 6.42 308.1 10.9
+    eymards2.6 . 10.74 329.1 13.3
+    eymards2.6 . 12.33 333.3 7.0
+    eymards2.6 . 7.10 316.1 -20.0
+    eymards2.6 . 11.66 332.7 -14.4
+    eymards2.6 . 3.21 281.7 27.6
+    eymards2.6 . 4.61 295.0 18.7
+    eymards2.6 . 4.58 322.6 36.8
+    eymards2.6 . 7.60 319.4 26.3
+    eymards2.6 . 9.81 309.6 -42.8
+    eymards2.6 . 11.98 319.9 -37.2
+    extend right
+    eymards2.6 eymards2.7 2.26 297.0 50.8
+    # extend auto
+    eymards2.7 . 1.63 71.9 -1.7
+    eymards2.7 . 8.52 357.4 4.7
+    eymards2.7 . 7.36 338.3 3.2
+    eymards2.7 . 0.25 321.0 -0.8
+    eymards2.7 . 0.21 302.1 -2.0
+    eymards2.7 . 1.34 263.3 0.8
+    eymards2.7 . 2.85 284.9 -4.2
+    eymards2.7 . 5.67 277.6 -41.3
+    eymards2.7 . 6.40 308.6 -41.2
+    eymards2.7 . 13.62 326.2 -39.9
+    eymards2.7 . 29.51 282.1 -84.1
+    eymards2.7 . 3.20 87.2 -59.4
+    eymards2.7 . 2.80 86.6 -72.8
+    eymards2.7 . 3.37 66.0 -53.6
+    eymards2.7 . 3.34 119.4 -55.5
+    eymards2.7 . 3.28 36.3 -59.9
+    eymards2.7 . 3.26 75.7 -56.2
+    eymards2.7 . 2.82 66.7 -75.3
+    extend left
+    eymards2.7 eymards2.8 6.49 201.3 -81.4
+    # extend auto
+    eymards2.8 . 1.48 50.0 -4.8
+    eymards2.8 . 1.34 104.1 -3.8
+    eymards2.8 . 1.60 61.9 -6.0
+    eymards2.8 . 10.78 346.1 -2.9
+    eymards2.8 . 10.21 356.8 -3.3
+    eymards2.8 . 5.32 304.9 -5.0
+    eymards2.8 . 20.35 322.0 -80.3
+    extend right
+    eymards2.8 eymards2.9 8.22 322.8 -80.3
+    # extend auto
+    eymards2.9 . 2.87 261.4 -10.8
+    eymards2.9 . 3.54 307.4 -12.6
+    eymards2.9 . 6.57 339.0 -10.6
+    eymards2.9 . 4.19 355.7 -9.0
+    eymards2.9 . 4.14 214.4 3.1
+    eymards2.9 . 3.62 223.1 -5.7
+    eymards2.9 . 3.16 242.2 -5.4
+    extend vertical
+    eymards2.9 eymards2.10 5.19 274.0 -64.9
+    # extend auto
+    eymards2.10 . 5.77 152.6 -6.9
+    eymards2.10 . 3.66 128.5 -4.4
+    eymards2.10 . 3.03 116.6 -4.5
+    eymards2.10 . 6.62 343.6 -5.0
+    eymards2.10 . 2.46 11.0 -9.4
+    eymards2.10 . 2.58 65.8 -6.9
+    extend right
+    eymards2.10 eymards2.11 10.57 1.0 -85.1
+    # extend auto
+    eymards2.11 . 1.31 285.6 7.7
+    eymards2.11 . 32.00 33.8 76.8
+    eymards2.11 . 1.76 96.5 -2.5
+    eymards2.11 . 31.22 43.2 86.5
+    eymards2.11 . 4.90 7.0 21.1
+    eymards2.11 . 8.06 5.4 44.2
+    eymards2.11 . 4.84 178.5 10.6
+    eymards2.11 . 6.42 166.6 38.8
+    extend right
+    eymards2.11 eymards2.12 4.65 11.3 26.8
+    # extend auto
+    eymards2.12 . 1.58 240.6 -1.4
+    eymards2.12 . 2.04 243.8 45.3
+    eymards2.12 . 21.31 200.6 84.3
+    eymards2.12 . 4.48 49.8 89.7
+    eymards2.12 . 4.80 285.0 20.6
+    eymards2.12 . 6.07 288.2 56.1
+    eymards2.12 . 0.42 121.0 -16.9
+    eymards2.12 . 2.42 157.4 68.9
+    eymards2.12 . 1.49 284.1 -84.3
+    eymards2.12 . 2.04 240.6 -38.9
+    extend right
+    eymards2.12 eymards2.13 3.31 280.9 -9.6
+    # extend auto
+    eymards2.13 . 5.63 81.8 86.7
+    eymards2.13 . 0.79 262.4 49.1
+    eymards2.13 . 2.94 248.0 78.2
+    eymards2.13 . 1.25 330.4 -72.6
+    eymards2.13 . 1.38 88.3 1.2
+    eymards2.13 . 2.35 84.7 40.0
+    extend right
+    eymards2.13 eymards2.14 9.35 25.2 3.0
+    # extend auto
+    eymards2.14 . 6.65 326.9 82.1
+    eymards2.14 . 28.85 218.5 88.0
+    eymards2.14 . 1.58 253.5 15.4
+    eymards2.14 . 4.83 269.3 61.4
+    eymards2.14 . 2.16 65.4 67.1
+    eymards2.14 . 4.00 273.8 1.4
+    eymards2.14 . 5.12 284.5 3.8
+    eymards2.14 . 5.50 307.5 6.8
+    eymards2.14 . 5.53 298.8 42.2
+    eymards2.14 . 8.80 317.8 45.2
+    extend right
+    eymards2.14 eymards2.15 5.56 319.8 1.1
+    # extend auto
+    eymards2.15 . 0.48 235.3 6.6
+    eymards2.15 . 1.28 66.8 -1.6
+    eymards2.15 . 1.93 70.0 59.7
+    eymards2.15 . 6.83 31.2 88.6
+    eymards2.15 . 17.32 223.1 83.3
+    extend right
+    eymards2.15 eymards2.16 5.15 359.0 -11.1
+    # extend auto
+    eymards2.16 . 1.52 86.9 -41.5
+    eymards2.16 . 0.91 99.3 -6.3
+    eymards2.16 . 1.65 101.2 40.2
+    eymards2.16 . 5.36 78.9 71.7
+    eymards2.16 . 9.76 58.2 81.5
+    eymards2.16 . 18.31 25.7 82.7
+    extend right
+    eymards2.16 eymards2.17 3.26 27.9 -13.1
+    # extend auto
+    eymards2.17 . 0.40 291.1 23.8
+    eymards2.17 . 1.08 307.4 -62.0
+    eymards2.17 . 0.97 332.4 74.8
+    eymards2.17 . 0.75 315.5 61.4
+    extend right
+    eymards2.17 eymards2.18 3.03 18.5 -0.9
+    # extend auto
+    eymards2.18 . 0.61 234.5 6.1
+    eymards2.18 . 1.44 245.8 -72.7
+    eymards2.18 . 9.47 77.1 80.2
+    eymards2.18 . 2.06 104.4 85.4
+    eymards2.18 . 3.41 88.8 74.4
+    eymards2.18 . 0.95 58.3 -43.3
+    extend right
+    eymards2.18 eymards2.19 2.76 333.2 -4.0
+    # extend auto
+    eymards2.19 . 0.92 76.9 13.0
+    eymards2.19 . 1.78 65.0 -66.6
+    eymards2.19 . 2.20 109.3 83.2
+    eymards2.19 . 0.84 77.1 58.6
+    extend right
+    eymards2.19 eymards2.20 1.34 0.5 -10.2
+    # extend auto
+    eymards2.20 . 0.62 247.5 -0.9
+    eymards2.20 . 2.32 260.3 64.5
+    eymards2.20 . 1.71 246.1 -73.9
+    eymards2.20 . 1.47 5.7 -69.1
+    eymards2.20 . 2.10 255.2 -66.3
+    extend right
+    eymards2.20 eymards2.21 1.97 331.0 -12.4
+    # extend auto
+    eymards2.21 . 1.05 225.0 6.5
+    eymards2.21 . 6.09 258.2 77.3
+    eymards2.21 . 2.28 248.2 68.2
+    eymards2.21 . 2.07 221.7 -26.5
+    eymards2.21 . 2.01 231.9 -66.4
+    eymards2.21 . 2.02 11.8 -63.5
+    extend right
+  # bouclage Méduse
+    eymards2.21 eymards2.22 2.54 340.2 -5.6
+    # extend auto
+    eymards2.22 . 1.27 198.5 -3.0
+    eymards2.22 . 3.18 206.7 53.0
+    eymards2.22 . 6.85 200.0 84.6
+    eymards2.22 . 2.12 222.3 -59.8
+    eymards2.22 . 3.30 209.8 -48.0
+    eymards2.22 . 1.72 25.3 -62.5
+    extend left
+  # actif
+    eymards2.22 eymards2.23 3.76 257.5 -29.5
+    # extend auto
+    eymards2.23 . 1.25 19.1 38.9
+    eymards2.23 . 2.02 295.1 78.2
+    eymards2.23 . 1.49 201.1 54.7
+    eymards2.23 . 1.68 218.0 0.4
+    eymards2.23 . 3.25 266.7 4.7
+    eymards2.23 . 5.20 289.7 23.7
+    eymards2.23 . 3.82 296.1 51.0
+    extend right
+    eymards2.23 eymards2.24 3.51 284.6 5.3
+    # extend auto
+    eymards2.24 . 2.00 270.9 33.8
+    eymards2.24 . 2.53 298.4 84.3
+    eymards2.24 . 0.94 165.0 28.3
+    eymards2.24 . 2.17 334.6 19.7
+    eymards2.24 . 0.91 162.2 34.5
+    eymards2.24 . 2.34 304.2 29.9
+    eymards2.24 . 2.41 347.5 7.2
+    eymards2.24 . 1.71 33.4 -44.3
+    eymards2.24 . 1.46 56.8 6.2
+    eymards2.24 . 1.50 27.4 57.4
+    extend right
+    eymards2.24 eymards2.25 5.47 10.3 6.6
+    # extend auto
+    eymards2.25 . 0.96 268.0 10.7
+    eymards2.25 . 1.25 284.2 -57.3
+    eymards2.25 . 1.32 261.9 54.9
+    eymards2.25 . 2.63 111.9 89.3
+    eymards2.25 . 7.80 342.9 10.9
+    extend right
+    eymards2.25 eymards2.26 4.13 357.8 22.4
+    # extend auto
+    eymards2.26 . 2.75 241.6 7.8
+    eymards2.26 . 1.63 272.5 -51.5
+    eymards2.26 . 0.91 239.5 81.7
+    eymards2.26 . 3.39 313.0 11.3
+    eymards2.26 . 2.65 220.8 4.1
+    eymards2.26 . 4.01 230.9 48.8
+    eymards2.26 . 3.10 314.7 49.9
+    extend right
+    eymards2.26 eymards2.27 5.31 2.4 19.8
+    # extend auto
+    eymards2.27 . 1.26 343.5 82.9
+    eymards2.27 . 0.32 245.3 0.8
+    eymards2.27 . 1.75 281.2 -84.7
+    eymards2.27 . 0.24 94.1 -2.3
+    eymards2.27 . 0.48 228.1 -53.5
+    eymards2.27 . 0.82 235.8 73.8
+    extend right
+    eymards2.27 eymards2.28 1.51 314.7 15.1
+    # extend auto
+    eymards2.28 . 0.52 187.5 6.9
+    eymards2.28 . 0.49 28.7 10.0
+    eymards2.28 . 1.21 186.9 -74.6
+    eymards2.28 . 0.88 183.8 85.2
+    eymards2.28 . 2.22 309.0 49.9
+    extend right
+    eymards2.28 eymards2.29 2.30 308.9 49.9
+    # extend auto
+    eymards2.29 . 1.36 167.3 13.4
+    eymards2.29 . 3.36 178.0 56.5
+    eymards2.29 . 2.34 191.7 88.7
+    eymards2.29 . 1.45 0.3 53.8
+    eymards2.29 . 0.76 180.2 -60.1
+    eymards2.29 . 2.58 281.6 36.8
+    extend right
+    eymards2.29 eymards2.30 3.48 281.6 36.7
+    # extend auto
+    eymards2.30 . 4.96 41.4 80.4
+    eymards2.30 . 2.06 37.9 26.2
+    eymards2.30 . 2.10 58.9 8.9
+    eymards2.30 . 3.54 121.1 3.5
+    eymards2.30 . 0.90 233.8 -61.8
+    eymards2.30 . 2.67 62.4 -21.2
+    extend right
+    eymards2.30 eymards2.31 4.35 339.3 56.2
+    # extend auto
+    eymards2.31 . 1.59 231.7 -88.7
+    eymards2.31 . 1.00 213.0 -21.2
+    eymards2.31 . 0.41 36.4 -8.4
+    eymards2.31 . 1.26 288.8 -22.3
+    eymards2.31 . 4.38 127.1 -7.4
+    eymards2.31 . 4.41 105.3 -3.1
+    extend right
+    eymards2.31 eymards2.32 3.94 338.0 -37.9
+    # extend auto
+    eymards2.32 . 0.85 119.3 -9.4
+    eymards2.32 . 7.09 106.3 62.3
+    eymards2.32 . 1.15 96.1 54.5
+    eymards2.32 . 2.45 259.2 -79.4
+    eymards2.32 . 1.05 56.6 -31.6
+    eymards2.32 . 1.38 48.1 12.2
+    eymards2.32 . 0.65 52.2 61.3
+    extend right
+    eymards2.32 eymards2.33 2.43 56.5 -62.0
+    # extend auto
+    eymards2.33 . 0.57 132.1 5.1
+    eymards2.33 . 1.16 125.3 -69.7
+    eymards2.33 . 0.86 121.3 72.7
+    eymards2.33 . 1.13 59.7 -22.1
+    eymards2.33 . 0.58 11.0 -14.2
+    eymards2.33 . 0.73 179.6 8.3
+    extend right
+    eymards2.33 eymards2.34 3.79 34.8 -60.7
+    # extend auto
+    eymards2.34 . 3.36 55.8 75.6
+    eymards2.34 . 1.60 102.2 64.4
+    eymards2.34 . 0.79 114.5 6.7
+    eymards2.34 . 0.80 316.3 18.5
+    eymards2.34 . 1.35 334.1 70.7
+    extend right
+    eymards2.34 eymards2.35 3.34 31.2 36.6
+    # extend auto
+    eymards2.35 . 0.50 136.6 -8.7
+    eymards2.35 . 2.14 117.4 64.4
+    eymards2.35 . 1.49 278.4 -60.0
+    extend right
+    eymards2.35 eymards2.36 1.54 26.0 17.7
+    # extend auto
+    eymards2.36 . 0.39 292.6 0.6
+    eymards2.36 . 2.93 301.7 87.6
+    eymards2.36 . 1.41 297.9 -83.1
+    extend right
+    eymards2.36 eymards2.37 2.95 3.6 3.7
+    # extend auto
+    eymards2.37 . 0.77 108.1 -5.9
+    eymards2.37 . 0.99 138.0 -79.6
+    eymards2.37 . 3.15 111.4 74.3
+    eymards2.37 . 2.93 19.9 40.6
+    eymards2.37 . 2.89 49.8 43.8
+    eymards2.37 . 2.32 65.2 46.7
+    eymards2.37 . 1.33 191.0 -2.1
+    extend right
+    eymards2.37 eymards2.38 11.13 46.2 37.5
+    # extend auto
+    eymards2.38 . 0.58 286.8 17.1
+    eymards2.38 . 1.35 287.2 -70.9
+    eymards2.38 . 0.43 285.2 76.2
+    eymards2.38 . 3.90 226.3 -1.9
+    eymards2.38 . 4.98 226.2 -16.7
+    eymards2.38 . 6.04 223.9 -44.1
+    eymards2.38 . 3.36 223.8 -58.1
+    eymards2.38 . 1.23 30.1 -13.9
+    eymards2.38 . 0.61 354.2 63.3
+    extend right
+    eymards2.38 eymards2.39 2.26 34.9 24.3
+    # extend auto
+    eymards2.39 . 0.45 297.4 2.9
+    eymards2.39 . 1.69 322.6 69.0
+    eymards2.39 . 1.29 338.6 -80.4
+    eymards2.39 . 2.29 32.4 -20.2
+    eymards2.39 . 1.07 177.5 -38.8
+    extend right
+    eymards2.39 eymards2.40 3.27 36.2 -61.9
+    # extend auto
+    eymards2.40 . 1.78 172.2 9.5
+    eymards2.40 . 2.83 177.5 83.7
+    eymards2.40 . 1.02 264.6 -16.0
+    eymards2.40 . 1.67 303.5 -82.5
+    eymards2.40 . 1.64 340.9 0.1
+    eymards2.40 . 2.36 345.5 56.5
+    eymards2.40 . 2.81 323.8 89.3
+    extend right
+    eymards2.40 eymards2.41 1.70 331.8 6.6
+    # extend auto
+    eymards2.41 . 1.22 88.0 11.3
+    eymards2.41 . 1.43 64.5 -64.0
+    eymards2.41 . 2.58 91.9 55.6
+    extend ignore
+    eymards2.41 eymards2.42 3.80 28.3 41.6
+    # extend auto
+    eymards2.42 . 0.37 311.5 -67.2
+    eymards2.42 . 0.65 279.1 -0.4
+    eymards2.42 . 0.36 121.5 19.8
+    eymards2.42 . 1.16 229.3 83.6
+    eymards2.42 . 0.75 306.9 58.8
+    extend right
+    eymards2.42 eymards2.43 3.30 11.6 42.9
+    # extend auto
+    eymards2.43 . 0.25 92.7 5.3
+    eymards2.43 . 1.23 18.1 -73.4
+    eymards2.43 . 0.23 243.3 0.6
+    eymards2.43 . 0.37 212.2 42.6
+    eymards2.43 . 0.88 187.5 -6.8
+    eymards2.43 . 1.55 191.4 -32.4
+    eymards2.43 . 1.21 155.0 -29.8
+    eymards2.43 . 0.48 13.9 -9.1
+    eymards2.43 . 0.66 327.3 -5.7
+    eymards2.43 . 10.31 285.7 77.1
+    extend right
+    eymards2.43 eymards2.44 3.32 306.9 40.6
+    # extend auto
+    eymards2.44 . 3.46 116.8 4.4
+    eymards2.44 . 0.65 253.4 -44.5
+    eymards2.44 . 2.21 12.7 -83.6
+    eymards2.44 . 4.62 158.1 48.7
+    eymards2.44 . 5.24 117.3 72.8
+    eymards2.44 . 3.54 117.9 29.2
+    eymards2.44 . 0.88 211.5 -6.1
+    eymards2.44 . 3.24 123.8 -21.2
+    extend right
+    eymards2.44 eymards2.45 1.15 21.3 -49.2
+    # extend auto
+    eymards2.45 . 1.27 79.0 -68.8
+    eymards2.45 . 0.32 116.2 -6.9
+    eymards2.45 . 0.40 273.1 0.9
+    extend right
+    eymards2.45 eymards2.46 1.80 21.6 3.4
+    # extend auto
+    eymards2.46 . 0.70 109.8 3.1
+    eymards2.46 . 1.28 115.9 -53.9
+    eymards2.46 . 1.01 61.2 78.9
+    eymards2.46 . 2.03 62.2 -5.8
+    eymards2.46 . 1.91 28.2 -2.9
+    extend right
+    eymards2.46 eymards2.47 1.72 28.8 -25.9
+    # extend auto
+    eymards2.47 . 0.23 107.6 -7.3
+    eymards2.47 . 0.22 284.2 -25.3
+    eymards2.47 . 4.82 83.4 -80.3
+    extend left
+    eymards2.47 eymards2.48 5.01 143.4 -72.1
+    # extend auto
+    eymards2.48 . 1.41 270.4 -0.0
+    eymards2.48 . 2.40 267.0 51.7
+    eymards2.48 . 0.92 95.8 24.9
+    eymards2.48 . 2.02 60.2 86.4
+    eymards2.48 . 2.08 225.5 9.3
+    eymards2.48 . 2.09 205.7 22.8
+    eymards2.48 . 1.53 187.5 38.1
+    eymards2.48 . 2.11 328.6 33.3
+    extend right
+    eymards2.48 eymards2.49 3.79 351.3 25.9
+    # extend auto
+    eymards2.49 . 0.52 104.1 -2.1
+    eymards2.49 . 1.60 36.9 -76.1
+    eymards2.49 . 0.93 74.6 74.8
+    eymards2.49 . 1.15 41.6 -17.8
+    eymards2.49 . 0.82 352.6 -18.3
+    extend right
+    eymards2.49 eymards2.50 7.10 14.2 -1.5
+    # extend auto
+    eymards2.50 . 0.47 293.4 4.3
+    eymards2.50 . 2.54 101.0 -83.6
+    eymards2.50 . 1.35 181.0 -41.5
+    eymards2.50 . 1.73 200.7 4.6
+    eymards2.50 . 2.43 204.7 29.7
+    eymards2.50 . 2.11 163.5 23.2
+    eymards2.50 . 1.97 177.6 44.5
+    eymards2.50 . 1.22 140.7 10.7
+    extend right
+    eymards2.50 eymards2.51 2.64 12.9 -21.1
+    # extend auto
+    eymards2.51 . 2.57 337.0 80.1
+    eymards2.51 . 0.96 114.8 15.3
+    eymards2.51 . 0.56 287.3 28.2
+    eymards2.51 . 1.41 188.1 6.8
+    eymards2.51 . 1.50 209.5 24.7
+    eymards2.51 . 1.46 142.6 2.7
+    eymards2.51 . 1.04 65.0 9.4
+    eymards2.51 . 2.01 33.8 36.4
+    eymards2.51 . 2.28 69.8 -18.4
+    eymards2.51 . 2.26 111.2 -29.2
+    extend right
+    eymards2.51 eymards2.52 4.12 52.4 -3.6
+    # extend auto
+    eymards2.52 . 0.37 87.6 60.9
+    eymards2.52 . 0.29 113.2 16.0
+    eymards2.52 . 0.95 283.7 12.7
+    eymards2.52 . 0.52 293.5 -57.7
+    extend right
+    eymards2.52 eymards2.53 1.93 35.2 -5.5
+    # extend auto
+    eymards2.53 . 1.87 13.6 7.1
+    eymards2.53 . 3.27 338.3 74.2
+    eymards2.53 . 1.17 294.0 11.9
+    eymards2.53 . 0.96 169.6 -88.3
+    eymards2.53 . 5.35 353.7 -73.6
+    eymards2.53 . 4.88 348.9 -27.8
+    eymards2.53 . 2.47 41.1 -15.0
+    eymards2.53 . 2.22 74.4 -36.9
+    eymards2.53 . 1.60 265.8 -62.2
+    extend right
+    eymards2.53 eymards2.54 4.93 348.5 -73.8
+    # extend auto
+    eymards2.54 . 0.82 264.4 11.5
+    eymards2.54 . 1.46 257.0 56.5
+    eymards2.54 . 6.40 259.8 85.4
+    eymards2.54 . 2.36 81.0 15.0
+    eymards2.54 . 1.98 73.5 56.9
+    eymards2.54 . 2.73 154.9 18.1
+    eymards2.54 . 2.24 153.4 49.8
+    eymards2.54 . 2.22 132.1 -14.1
+    extend right
+    eymards2.54 eymards2.55 5.31 329.7 -4.0
+    # extend auto
+    eymards2.55 . 1.71 211.0 0.8
+    eymards2.55 . 3.30 228.2 61.8
+    eymards2.55 . 1.40 232.8 -61.5
+    eymards2.55 . 1.77 267.2 72.9
+    eymards2.55 . 1.21 165.5 7.9
+    eymards2.55 . 2.25 259.9 13.8
+    eymards2.55 . 2.47 263.4 42.1
+    eymards2.55 . 3.33 294.9 5.0
+    eymards2.55 . 3.35 279.8 7.1
+    extend vertical
+    eymards2.55 eymards2.56 3.64 276.7 24.2
+    # extend auto
+    eymards2.56 . 2.16 2.6 -74.0
+    eymards2.56 . 1.14 41.2 3.3
+    eymards2.56 . 9.05 68.0 71.1
+    eymards2.56 . 8.62 94.2 75.6
+    eymards2.56 . 2.14 317.4 72.1
+    eymards2.56 . 0.70 318.5 5.3
+    eymards2.56 . 1.23 128.8 -8.5
+    eymards2.56 . 1.02 309.9 -32.7
+    extend right
+    eymards2.56 eymards2.57 2.35 344.2 67.2
+    # extend auto
+    eymards2.57 . 0.68 104.1 4.9
+    eymards2.57 . 1.29 348.9 -75.3
+    eymards2.57 . 3.68 103.0 55.6
+    extend right
+    eymards2.57 eymards2.58 1.84 52.1 47.6
+    # extend auto
+    eymards2.58 . 0.75 283.5 0.6
+    eymards2.58 . 1.67 285.0 -42.4
+    eymards2.58 . 4.57 108.4 62.8
+    eymards2.58 . 1.52 108.0 54.6
+    eymards2.58 . 1.79 20.1 39.2
+    eymards2.58 . 1.99 7.1 37.1
+    extend right
+    eymards2.58 eymards2.59 4.94 305.7 -9.0
+    # extend auto
+    eymards2.59 . 0.89 70.2 4.8
+    eymards2.59 . 1.32 20.3 70.6
+    eymards2.59 . 1.49 43.9 -67.6
+    eymards2.59 . 2.70 128.4 3.6
+    eymards2.59 . 2.63 128.8 22.0
+    eymards2.59 . 1.71 109.1 52.4
+    eymards2.59 . 1.11 99.2 16.1
+    eymards2.59 . 1.10 142.6 -0.0
+    extend right
+    eymards2.59 eymards2.60 4.16 1.1 -33.4
+    # extend auto
+    eymards2.60 . 1.02 235.3 -65.9
+    eymards2.60 . 1.26 256.0 2.9
+    eymards2.60 . 1.94 283.8 39.5
+    eymards2.60 . 1.79 289.6 61.2
+    eymards2.60 . 1.48 170.0 -4.4
+    eymards2.60 . 2.62 168.3 12.6
+    eymards2.60 . 2.32 179.0 36.1
+    eymards2.60 . 2.73 196.3 53.0
+    extend right
+    eymards2.60 eymards2.61 2.85 323.0 -9.2
+    # extend auto
+    eymards2.61 . 2.25 20.2 -20.9
+    eymards2.61 . 0.67 344.8 78.3
+    eymards2.61 . 2.40 185.4 29.6
+    eymards2.61 . 0.26 57.9 -81.9
+    eymards2.61 . 1.18 102.3 -42.8
+    eymards2.61 . 2.73 137.7 -14.7
+    eymards2.61 . 1.77 130.5 21.1
+    eymards2.61 . 3.67 180.9 26.1
+    eymards2.61 . 0.98 151.9 53.2
+    eymards2.61 . 1.43 75.4 -15.5
+  endcenterline
+
+endsurvey
